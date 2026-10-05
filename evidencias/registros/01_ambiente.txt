@@ -1,0 +1,15 @@
+Sistema: Microsoft Windows 11 Home Single Language 10.0.26200
+Procesador: 12th Gen Intel(R) Core(TM) i5-12450H - nucleos: 8 - hilos: 12
+Memoria RAM (GB): 15.7
+Node: v24.19.0
+npm: 11.17.0
+Git: git version 2.55.0.windows.3
+Servicio MongoDB: Running
+Python del entorno: Python 3.11.9
+Django                        5.2.17
+django-cors-headers           4.4.0
+django-mongodb-backend        5.2.4
+djangorestframework           3.15.2
+djangorestframework-simplejwt 5.3.1
+pillow                        10.4.0
+pymongo                       4.18.2

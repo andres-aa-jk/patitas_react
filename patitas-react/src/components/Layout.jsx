@@ -65,11 +65,6 @@ export default function Layout({ children }) {
                 </NavLink>
               </li>
               <li>
-                <a href="#">
-                  <i className="fas fa-heart"></i>&nbsp; Donaciones
-                </a>
-              </li>
-              <li>
                 <button type="button" className="nav-logout" onClick={handleLogout}>
                   <i className="fas fa-sign-out-alt"></i>&nbsp; Cerrar Sesión
                 </button>
@@ -100,11 +95,6 @@ export default function Layout({ children }) {
                 <NavLink to="/contacto" onClick={closeMenu}>
                   <i className="fas fa-envelope"></i>&nbsp; Contáctanos
                 </NavLink>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fas fa-heart"></i>&nbsp; Donaciones
-                </a>
               </li>
             </>
           )}

@@ -1,0 +1,6 @@
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, pets, sessions, users
+Running migrations:
+  Applying admin.0004_alter_logentry_id... OK
+  Applying auth.0013_alter_group_id_alter_permission_id_alter_user_id... OK
+  Applying contenttypes.0003_alter_contenttype_id... OK

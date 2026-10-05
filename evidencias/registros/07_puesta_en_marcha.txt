@@ -1,0 +1,36 @@
+Puesta en marcha local
+
+Entorno Python:
+Python del venv: Python 3.11.9
+Django instalado: 5.2.17
+
+Comprobación de Django:
+System check identified no issues (0 silenced).
+
+Conexión a MongoDB:
+Base de pruebas configurada: True
+MongoDB ping: OK
+
+Instalación del cliente (`npm.cmd ci --prefix .\patitas-react`):
+added 29 packages, and audited 30 packages in 2s
+10 packages are looking for funding
+found 0 vulnerabilities
+
+Servidor del cliente (`npm.cmd run dev --prefix .\patitas-react -- --host 127.0.0.1`):
+VITE v8.2.2 ready in 1750 ms
+Local: http://127.0.0.1:5173/
+
+Verificación HTTP:
+GET http://127.0.0.1:5173/ -> 200
+
+Backend:
+Venv activo en el proceso: Python 3.11.9 (`patitas-backend/venv`).
+`migrate` termina con código 0. Django avisa que los PK de admin, auth y contenttypes difieren de sus migraciones históricas; el registro final está en 01_migraciones.txt y el primer intento fallido se conserva en 01_migraciones_intentos.txt.
+API: 21 de 21 pruebas aprobadas; salida en 02_pruebas_api.txt.
+Backend disponible en http://127.0.0.1:8000; GET /api/animales/ -> 200.
+
+Frontend:
+Build completado; salida en 03_build_cliente.txt.
+Oxlint terminó con código 0 y tres advertencias; salida en 04_oxlint.txt.
+Interfaz cargada en navegador integrado sin errores de consola.
+Frontend disponible en http://127.0.0.1:5173; GET / -> 200.

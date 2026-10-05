@@ -1,0 +1,34 @@
+Ambiente observado durante la puesta en marcha
+
+Python global:
+Python 3.14.7
+Python del entorno virtual patitas-backend/venv:
+Python 3.11.9
+Node:
+v24.19.0
+npm:
+11.17.0
+
+Paquetes instalados en el entorno virtual:
+Django==5.2.17
+django-mongodb-backend==5.2.4
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+pillow==10.4.0
+python-dotenv==1.0.1
+
+MongoDB:
+No se encontraron mongod ni mongosh en PATH.
+MONGODB_NAME coincide con patitas_pruebas: sí.
+Ping MongoDB mediante PyMongo: OK.
+La URI no se imprime ni se registra.
+
+Windows:
+Nombre del sistema operativo: Microsoft Windows 11 Home Single Language
+Versión del sistema operativo: 10.0.26200 N/D Compilación 26200
+Tipo del sistema: x64-based PC
+Procesadores: 1 Procesadores instalados.
+Memoria física total: 16.108 MB
+
+Navegador:
+No se detectaron msedge.exe ni chrome.exe en PATH; interfaz comprobada en el navegador integrado de VS Code. Versión no disponible.

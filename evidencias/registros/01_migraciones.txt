@@ -1,0 +1,20 @@
+﻿Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, pets, sessions, users
+Running pre-migrate handlers for application admin
+Running pre-migrate handlers for application auth
+Running pre-migrate handlers for application contenttypes
+Running pre-migrate handlers for application sessions
+Running pre-migrate handlers for application rest_framework_simplejwt
+Running pre-migrate handlers for application users
+Running pre-migrate handlers for application pets
+Running migrations:
+  No migrations to apply.
+  Your models in app(s): 'admin', 'auth', 'contenttypes' have changes that are not yet reflected in a migration, and so won't be applied.
+  Run 'manage.py makemigrations' to make new migrations, and then re-run 'manage.py migrate' to apply them.
+Running post-migrate handlers for application admin
+Running post-migrate handlers for application auth
+Running post-migrate handlers for application contenttypes
+Running post-migrate handlers for application sessions
+Running post-migrate handlers for application rest_framework_simplejwt
+Running post-migrate handlers for application users
+Running post-migrate handlers for application pets

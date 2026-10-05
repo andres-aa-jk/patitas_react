@@ -1,0 +1,61 @@
+Creating test database for alias 'default' ('test_patitas_pruebas')...
+Found 21 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: corsheaders, messages, rest_framework, rest_framework_simplejwt, staticfiles
+  Apply all migrations: admin, auth, contenttypes, pets, sessions, users
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying users.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying admin.0004_alter_logentry_id... OK
+  Applying auth.0013_alter_group_id_alter_permission_id_alter_user_id... OK
+  Applying contenttypes.0003_alter_contenttype_id... OK
+  Applying pets.0001_initial... OK
+  Applying pets.0002_initial... OK
+  Applying sessions.0001_initial...test_cp13_crear_animal (pruebas.test_api.AnimalTests.test_cp13_crear_animal) ... ok
+test_cp14_crear_sin_sesion (pruebas.test_api.AnimalTests.test_cp14_crear_sin_sesion) ... ok
+test_cp15_listado_publico (pruebas.test_api.AnimalTests.test_cp15_listado_publico) ... ok
+test_cp16_filtros (pruebas.test_api.AnimalTests.test_cp16_filtros) ... ok
+test_cp17_validaciones (pruebas.test_api.AnimalTests.test_cp17_validaciones) ... ok
+test_cp18_cercanos (pruebas.test_api.AnimalTests.test_cp18_cercanos) ... ok
+test_cp19_cercanos_sin_coordenadas (pruebas.test_api.AnimalTests.test_cp19_cercanos_sin_coordenadas) ... ok
+test_cp20_permisos_propietario (pruebas.test_api.AnimalTests.test_cp20_permisos_propietario) ... ok
+test_cp21_mis_animales (pruebas.test_api.AnimalTests.test_cp21_mis_animales) ... ok
+test_cp01_registro_valido (pruebas.test_api.AuthTests.test_cp01_registro_valido) ... ok
+test_cp02_username_duplicado (pruebas.test_api.AuthTests.test_cp02_username_duplicado) ... ok
+test_cp03_email_duplicado (pruebas.test_api.AuthTests.test_cp03_email_duplicado) ... ok
+test_cp04_passwords_distintas (pruebas.test_api.AuthTests.test_cp04_passwords_distintas) ... ok
+test_cp05_password_debil (pruebas.test_api.AuthTests.test_cp05_password_debil) ... ok
+test_cp06_faltan_campos (pruebas.test_api.AuthTests.test_cp06_faltan_campos) ... ok
+test_cp07_login_ok (pruebas.test_api.AuthTests.test_cp07_login_ok) ... ok
+test_cp08_login_incorrecto (pruebas.test_api.AuthTests.test_cp08_login_incorrecto) ... ok
+test_cp09_perfil_sin_sesion (pruebas.test_api.AuthTests.test_cp09_perfil_sin_sesion) ... ok
+test_cp10_perfil_y_edicion (pruebas.test_api.AuthTests.test_cp10_perfil_y_edicion) ... ok
+test_cp11_cambio_password (pruebas.test_api.AuthTests.test_cp11_cambio_password) ... ok
+test_cp12_refresh (pruebas.test_api.AuthTests.test_cp12_refresh) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 11.081s
+
+OK
+Destroying test database for alias 'default' ('test_patitas_pruebas')...
+ OK
+System check identified no issues (0 silenced).

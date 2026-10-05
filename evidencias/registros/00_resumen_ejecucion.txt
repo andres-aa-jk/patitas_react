@@ -1,0 +1,16 @@
+Ejecucion iniciada: 2026-10-04 17:04:10
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" -m pip install -r requirements.txt
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" -m pip list
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" manage.py makemigrations
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" manage.py migrate
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" manage.py test pruebas -v 2
+[codigo -4048] npm ci
+[codigo 1] npm run build
+[codigo 0] npx oxlint .
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" pruebas\carga_datos.py
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" pruebas\contar_consultas.py
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" pruebas\medir.py http://127.0.0.1:8000
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" pruebas\contar_consultas.py
+[codigo 0] "C:\Users\andre\patitas_react\patitas-backend\venv\Scripts\python.exe" pruebas\medir.py http://127.0.0.1:8000
+[codigo 0] git status --short patitas-backend/pets/views.py
+Ejecucion terminada: 2026-10-04 17:07:17

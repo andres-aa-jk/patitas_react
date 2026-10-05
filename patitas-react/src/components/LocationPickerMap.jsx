@@ -48,5 +48,9 @@ export default function LocationPickerMap({ onSelect }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <div id="map" ref={mapRef}></div>;
+  return (
+    <div className="map-container">
+      <div id="map" ref={mapRef}></div>
+    </div>
+  );
 }

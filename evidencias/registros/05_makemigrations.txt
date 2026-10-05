@@ -1,0 +1,11 @@
+Migrations for 'admin':
+  venv\Lib\site-packages\django\contrib\admin\migrations\0004_alter_logentry_id.py
+    ~ Alter field id on logentry
+Migrations for 'auth':
+  venv\Lib\site-packages\django\contrib\auth\migrations\0013_alter_group_id_alter_permission_id_alter_user_id.py
+    ~ Alter field id on group
+    ~ Alter field id on permission
+    ~ Alter field id on user
+Migrations for 'contenttypes':
+  venv\Lib\site-packages\django\contrib\contenttypes\migrations\0003_alter_contenttype_id.py
+    ~ Alter field id on contenttype
